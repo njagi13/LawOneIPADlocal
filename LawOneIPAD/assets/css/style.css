@@ -1,0 +1,117 @@
+.lo-feed-list,
+.lo-content {
+  overflow: hidden;
+  zoom: 1;
+  padding: 0;
+}
+
+.lo-feed-list {
+  list-style-type: none;
+  display: block;
+}
+
+.lo-feed-list li {
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.lo-feed-list li .lo-thumb {
+  width: 150px;
+  height: 150px;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 3px;
+  background: #333333;
+  margin-right: 12px;
+}
+
+.lo-feed-list li .lo-thumb.lo-high-priority-thumb {
+  border-color: #ed3d44;
+}
+
+.lo-feed-list li .lo-thumb.lo-normal-priority-thumb {
+  border-color: #f0ad4e;
+}
+
+.lo-feed-list li .lo-thumb.lo-low-priority-thumb {
+  border-color: #999999;
+}
+
+.lo-feed-list li .lo-thumb .lo-icon {
+  color: #ffffff;
+  /*font-size: 7.5em;*/
+  font-size: 5.0em;
+  text-align: center;
+}
+
+.lo-feed-list li .lo-content {
+  margin-left: 12px;
+  display: block;
+}
+
+.lo-feed-list li .lo-content .lo-progress-status {
+  height: 5px;
+  margin-bottom: 12px;
+  background: #999999;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.lo-feed-list li .lo-content .lo-message {
+  height: 110px;
+  text-overflow: ellipsis;
+}
+
+.lo-feed-list li .lo-content .lo-actions {
+  margin-top: -0.8em;
+}
+
+.lo-feed-list li .lo-content .lo-actions .lo-time {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 0.8em;
+  display: block;
+}
+
+.lo-feed-list li .lo-content .lo-actions a {
+  margin-right: 12px;
+}
+
+.lo-feed-list li .lo-content .lo-actions a:last-child {
+  margin-right: 0;
+}
+
+.btn-link[disabled] {
+  color: #999999;
+  cursor: auto;
+}
+
+body {
+  font-weight: 300;
+}
+
+.lo-navbar-brand {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+#popUpYes
+{
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white; /* SET COLOR IN WHITE */
+}
+
+#popUpYes:hover
+{
+  background-color: white;
+  color: black; /* SET COLOR IN BLACK */
+}
+
+.btn declining:hover
+{
+  background-color: red;
+  color: black;  
+ }
